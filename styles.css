@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background-image: url("https://media4.giphy.com/media/xVn3ZmKrKIOLS/giphy.gif?cid=ecf05e47qykq6xr671xlb2mh7emal6rzh9y4j07rnoclcpjb&rid=giphy.gif&ct=g");
+    font-family: 'Roboto Mono', monospace;
+Color:white;
+text-align: center;
+display: flex;
+justify-content: center;
+
+}
+.container{
+    background-color: #03001C;
+    height:115vh;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 4px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    border: #B6EADA solid 5px;
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    width: 80%;
+    background-color: #5B8FB9;
+    margin: 5px 0px;
+    border-radius: 15px;
+    
+    
+}
+.intro{
+    margin-top: 10px;
+}
+.aboutme{
+    margin-top: 0px;
+    
+}
+#github{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    width: 80%;
+    background-color: #5B8FB9;
+    margin-bottom: 5px ;
+    border-radius: 15px;
+  
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    width: 80%;
+    background-color: #5B8FB9;
+    margin: 5px 0px;
+    border-radius: 15px;
+    
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    width: 80%;
+    background-color: #5B8FB9;
+    margin: 5px 0px;
+    border-radius: 15px;
+    
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    width: 80%;
+    background-color: #5B8FB9;
+    margin: 5px 0px;
+    border-radius: 15px;
+    
+}
+.replit{
+    display: flex;
+    margin: 5px 0px;
+    border-radius: 15px;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    background-color: #5B8FB9;
+    
+}
+.logo{
+    height: 47px;
+    width: 47px;
+    border: black solid 3px;
+    border-radius: 50%;
+    margin: 5px 15px;
+    
+}
+h4{
+padding-left: 12px;
+cursor: pointer;
+color: #301E67;
+font-weight: bolder;
+font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+}
